@@ -1,4 +1,4 @@
-# Heartbleed Vulnerable Server for ISEC3005
+# Heartbleed Vulnerable Server for ISEC3004
 
 ## Build & Run server vulnerable to Heartbleed
 Access it on [https://localhost:8787](https://localhost:8787/)
