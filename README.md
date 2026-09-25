@@ -9,11 +9,11 @@ docker run -it --rm -p 8787:8787 heartbleed-server
 ```
 
 ## Build & Run server with Heartbleed mitigated
-Access it on [https://localhost:8787](https://localhost:8787/)
+Access it on [https://localhost:8788](https://localhost:8788/)
 ```bash
 cd patched_heartbleed
 docker build -t heartbleed-patched .
-docker run -it --rm -p 8787:8787 heartbleed-patched
+docker run -it --rm -p 8788:8788 heartbleed-patched
 ```
 
 
