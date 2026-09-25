@@ -26,5 +26,5 @@ RUN /openssl/apps/openssl req -x509 -newkey rsa:2048 \
 
 EXPOSE 8787
 
-# Start the vulnerable server on port 8787 with generated certificate
-ENTRYPOINT /openssl/apps/openssl s_server -key key.pem -cert cert.pem -accept 8787 -www
+# Start the vulnerable server on port 8788 with generated certificate
+ENTRYPOINT /openssl/apps/openssl s_server -key key.pem -cert cert.pem -accept 8788 -www

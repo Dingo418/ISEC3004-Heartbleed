@@ -21,5 +21,5 @@ docker run -it --rm -p 8787:8787 heartbleed-patched
 Will add more tomorrow
 
 ```bash
-./openssl s_client -connect localhost:8787 -tls1_2 -msg -debug
+./openssl s_client -connect localhost:8788 -tls1_2 -msg -debug
 ```
