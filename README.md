@@ -18,8 +18,18 @@ docker run -it --rm -p 8788:8788 heartbleed-patched
 
 
 ## Exploiting Hearbleed
-Will add more tomorrow
-
+Setup:
 ```bash
-./openssl s_client -connect localhost:8788 -tls1_2 -msg -debug
+pip install -r requirements.txt
+cd exploit
+```
+
+Perform exploit on vulnerable machine:
+```bash
+python main.py -p 8787
+```
+
+Perform exploit on patched machine/
+```bash
+python main.py -p 8788
 ```
