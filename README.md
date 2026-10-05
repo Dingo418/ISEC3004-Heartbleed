@@ -19,7 +19,6 @@ docker run -it --rm -p 8788:8788 heartbleed-patched
 
 ## Exploiting Hearbleed
 Setup:
-<<<<<<< HEAD
 ```bash
 pip install -r requirements.txt
 cd exploit
@@ -68,15 +67,4 @@ python main.py -p 8787
 ```bash
 pip install -r requirements.txt
 cd exploit
-```
-
-Perform exploit on vulnerable machine:
-```bash
-python main.py -p 8787
-```
-
-Perform exploit on patched machine/
-```bash
->>>>>>> 51077a62ed9e36db1922b4a8849662a8c9953fed
-python main.py -p 8788
 ```
