@@ -47,7 +47,7 @@ docker build -t heartbleed-server .
 docker run -it --rm -p 8787:8787 heartbleed-server
 cd ../
 
-# 2. Build and run the mitigated server
+# 2. Build and run the patched server
 cd patched_heartbleed
 docker build -t heartbleed-patched .
 docker run -it --rm -p 8788:8788 heartbleed-patched
