@@ -63,8 +63,5 @@ cd exploit
 python main.py -p 8787
 
 # 5. Run the exploit on mitigated server
-=======
-```bash
-pip install -r requirements.txt
-cd exploit
+python main.py -p 8788
 ```
